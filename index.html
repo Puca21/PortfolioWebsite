@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Keith Reilly's Portfolio</title>
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/mystyle.css" rel="stylesheet">
+	<link  href="../code/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/media-queries.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+	
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <body>
+
+  	<div id = "page1">
+  		<div class = "container">
+  			<div class = "row">
+  				<div class = "col-md-12">
+  					<div class = "header">  
+
+  						<nav id = "nav-wrap">
+
+  							<ul id ="nav" class = "nav">
+  							<img src = "../code/images/logo.png" id = "logo">  
+  								<li class = "current"><a href = "#home">Home</a></li>
+  								<li class = "current"><a href = "#projects">Projects</a></li>
+  								<li class = "current"><a href = "#about">About</a></li>
+  							</ul>
+  						</nav>
+  					</div>
+  				</div>
+  			</div>
+
+  			<div class = "row">   
+  				<div class = "col-md-5">
+
+  					<a id = "home" class = "smooth"></a>
+  					<div class = "maintext"> 
+  						<h1>Hey!</h1>
+  						<h3>I'm Keith, a multimedia student from Dublin, Ireland</h3>
+  						
+  						<hr class = "mainhr">
+
+  					</div>
+
+
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+
+
+  	<div id = "page2">
+  		<div class = "container">
+  			<div class = "row">
+  				<div class = "col-md-12">
+
+  					<a id = "projects" class = "smooth"></a>
+  					<div class = "projecttext">
+  						<h2>Projects</h2>
+  					</div>
+  					<div class = "projectimages">
+  						<button id="myBtn">
+  							<div data-content = "Thesis Year 4 - Procedural Generation Methods in Game Development" class = "image"> 
+  								<img class = "projectYr4" src = "../code/images/ProjectYr4.jpg" alt = "ProjectYr4" />
+
+  							</div>
+  							<!-- Trigger/Open The Modal -->
+  						</button>
+
+  						<!-- The Modal -->
+  						<div id="myModal" class="modal">
+
+  							<!-- Modal content -->
+  							<div class="modal-content">
+  								<span class="close">x</span>
+  								<img src = "../code/images/ProjectYr4.jpg" alt = "ProjectYr4" />
+                  <h3>Examining Different Procedural Generation Methods and Algorithms used in Game Development</h3>
+  								<p>
+                    For this project, I created a Procedurally Generated Maze in the Unreal Engine. The game was coded in C++ in Microsoft Visual Studio. The main objective of the thesis was to examine a number of Procedural Generation methods and Algorithms that are used in Game Development</p>
+  								<p>The Player Character must traverse a set amount of randomly generated mazes while fighting off enemies.</p>
+  								<p> The algorithm used to generate the random maze is called the ‘Recursive Backtrack Algorithm’. This algorithm works by choosing a starting point on the field. Randomly choose a wall at that point and make a passage to the adjacent cell, but only if the adjacent cell has not been visited yet. This then becomes the new current cell. If all adjacent cells have been visited, return to the last cell that has an unvisited cell next to it and repeat. The algorithm ends when the process has made its way back to the starting point.</p>
+  							</div>
+
+  						</div>
+
+
+
+  						<div class = "row">
+  							<div class = "col-sm-4 col-md-4">
+  								<button id="myBtn1">
+  									<div data-content = "Daily Sceál - Newspaper Website Design" class = "image">
+  										<img class = "dailysceal" src = "../code/images/dailysceal.jpg" alt = "DailySceal" />
+  									</div>
+  									<!-- Trigger/Open The Modal -->
+  								</button>
+
+  								<!-- The Modal -->
+  								<div id="myModal1" class="modal">
+
+  									<!-- Modal content -->
+  									<div class="modal-content1">
+  										<span class="close1">x</span>
+  										<img class = "dailysceal" src = "../code/images/dailysceal.jpg" alt = "DailySceal" />
+  										<h3>Daily Sceal - Newspaper Website</h3>
+                      <p>
+                        For this college assignment, we were tasked to design a text based website that provided a news feed through a text-only environment. This site was not to include any other forms of media (pictures, video, flash, and java) and was to only be developed using HTML/CSS code and the Bootstrap front-end responsive framework. The site was to be seen as a front page and was to be considered as a black and white entity. This assignment was primarily a design exercise in typography and layout and was to embrace classic principles of design – balance, contrast, pattern, alignment, structure and so on.</p>
+  									</div>
+
+  								</div>
+  							</div>
+
+  							<div class = "col-sm-4 col-md-4">
+  								<button id="myBtn2">
+  									<div data-content = "Brainy - A Collection of Brain Training Games" class = "image">
+  										<img class = "brainy" src = "../code/images/brainy.jpg" alt = "Brainy" />
+  									</div>
+  									<!-- Trigger/Open The Modal -->
+  								</button>
+
+  								<!-- The Modal -->
+  								<div id="myModal2" class="modal">
+
+  									<!-- Modal content -->
+  									<div class="modal-content2">
+  										<span class="close2">x</span>
+  										<img class = "brainy" src = "../code/images/brainy.jpg" alt = "Brainy" />
+                      <h3>Brainy - A Collection of Games.</h3>
+  										<p>The aim of this project is to examine game application development. It will particularly focus on HTML5, CSS and JavaScript as a way to create a cleanly designed app which flows between elements.</p>
+
+  										<p>The main objective of the project is to create a brain training web application using JavaScript libraries, HTML and CSS. The app for this project, Brainy, focuses on individual games which aim to help the user improve their cognitive skills. </p>
+
+  										<p>The end product will provide users with five games to choose from. The games contained in the app will be: memory game which is a matching game, a quiz with multiple choice answers and a countdown, Simon Says which consists of a sequence of ‘lights’ that the user must guess correctly, a numbers game where the user must find the computer-generated number and finally a hangman game where the user must guess a word that the computer randomly selects.</p>
+  									</p>
+  								</div>
+
+  							</div>
+  						</div>
+
+  						<div class = "col-sm-4 col-md-4">
+  							<button id="myBtn3">
+  								<div data-content = "Racing Game Prototype" class = "image">
+  									<img class = "carproto" src = "../code/images/carprototype.jpg" alt = "CarProto" />
+  								</div>
+  								<!-- Trigger/Open The Modal -->
+  							</button>
+
+  							<!-- The Modal -->
+  							<div id="myModal3" class="modal">
+
+  								<!-- Modal content -->
+  								<div class="modal-content3">
+  									<span class="close3">x</span>
+  									<img class = "carproto" src = "../code/images/carprototype.jpg" alt = "CarProto" />
+                    <h3>Racing Prototype</h3>
+  									<p>This project is on going and was started when the topic for my 4th year thesis was decided on. I started building this racing game as a prototype to learn how to use the Unreal Engine and to learn how to code in C++. Now that the thesis has been submitted, I plan on going back to this prototype and developing it into a full game.</p>
+  								</div>
+
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+
+
+  <div id = "page3">
+  	<div class = "container">
+  		<div class = "row">
+  			<div class = "col-md-12">
+  				<div class = "aboutsection">
+  					<a id = "about" class = "smooth"></a>
+  					<div class = "col-sm-3 col-md-3">
+  						<img class = "profile-pic" src = "images/profilepic.jpg" alt = "profilepic" />
+
+  					</div>
+
+  					<div class = "col-sm-6 col-md-6">
+
+  						<h2>About Me</h2>
+
+  						<p> I’m <span>Keith Reilly</span>, and welcome to my game development/programming portfolio site.
+  							I am currently a 4th year <span>Multimedia</span> student at <span>IADT Dun Laoghaire</span>, Dublin, Ireland and I will be finishing in May 2016. I have had a huge interest in video games and game development since I was very young and want to become a game developer after I graduate. During my time at IADT, I have become very familiar with a number of development languages such as; <span>C++</span>, <span>C#</span>, <span>Java</span>, <span>HTML</span> and <span>CSS</span>.
+  						</p>
+
+  						<p>Please don't hesitate to contact me, my email is:
+  							<br/>
+  							<span>kreilly20@gmail.com</span></p>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div class = "container">
+  		<div class = "footer">
+  			<div class = "row">
+  				<div class = "col-md-12">
+
+  					<ul class="social-links">
+  						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+  						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+  						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+  						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+  						<li><a href='#'><i class="fa fa-github"></i></a></li>
+  						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+
+  					</ul>
+
+  					<ul class="copyright">
+  						<li>&copy; Copyright 2016 Keith Reilly</li> 
+  					</ul>
+
+  				</div>
+
+  				<div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><img id = "arrow" src = "../code/images/arrow-up.svg"></a></div>
+
+
+  			</div>
+  		</div>
+  	</div>
+
+
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+  <script>
+  	/* Ease Page Transition */
+  	$(function() {
+  		$('a[href*="#"]:not([href="#"])').click(function() {
+  			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+  				var target = $(this.hash);
+  				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+  				if (target.length) {
+  					$('html, body').animate({
+  						scrollTop: target.offset().top
+  					}, 1000);
+  					return false;
+  				}
+  			}
+  		});
+  	});
+
+  // Get the modal
+  var modal = document.getElementById('myModal');
+  var modal1 = document.getElementById('myModal1');
+  var modal2 = document.getElementById('myModal2');
+  var modal3 = document.getElementById('myModal3');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+var btn1 = document.getElementById("myBtn1");
+var btn2 = document.getElementById("myBtn2");
+var btn3 = document.getElementById("myBtn3");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+var span1 = document.getElementsByClassName("close1")[0];
+var span2 = document.getElementsByClassName("close2")[0];
+var span3 = document.getElementsByClassName("close3")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+	modal.style.display = "block";
+}
+
+btn1.onclick = function() {
+	modal1.style.display = "block";
+}
+
+btn2.onclick = function() {
+	modal2.style.display = "block";
+}
+
+btn3.onclick = function() {
+	modal3.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+	modal.style.display = "none";
+}
+
+span1.onclick = function() {
+	modal1.style.display = "none";
+}
+
+span2.onclick = function() {
+	modal2.style.display = "none";
+}
+
+span3.onclick = function() {
+	modal3.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+	if (event.target == modal) {
+		modal.style.display = "none";
+	}
+}
+
+window.onclick = function(event) {
+	if (event.target == modal1) {
+		modal1.style.display = "none";
+	}
+}
+
+window.onclick = function(event) {
+	if (event.target == modal2) {
+		modal2.style.display = "none";
+	}
+}
+
+window.onclick = function(event) {
+	if (event.target == modal3) {
+		modal3.style.display = "none";
+	}
+}
+</script>
+</body>
+</html>
